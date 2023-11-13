@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MQTTNet" Version="3.1.2" />
+    <PackageReference Include="MQTTNet" Version="4.3.1.873" />
   </ItemGroup>
 
 </Project>
