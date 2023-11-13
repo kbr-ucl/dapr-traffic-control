@@ -13,7 +13,7 @@ Start-Process powershell -ArgumentList ".\start-selfhosted.ps1"
 cd ../../src/VisualSimulation
 Start-Process dotnet -ArgumentList "run"
 
-Start-Sleep -Seconds 10
+Start-Sleep -Seconds 20
 
 Start-Process "http://localhost:5000"
 Start-Process "http://localhost:4000"
